@@ -1,0 +1,31 @@
+{
+  "name": "advanced-nodejs-learning",
+  "version": "1.0.0",
+  "description": "Learning nodejs",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "prebuild": "tsc --build --clean",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavanteja-potnuru/nodejs-advanced.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavanteja-potnuru/nodejs-advanced/issues"
+  },
+  "homepage": "https://github.com/pavanteja-potnuru/nodejs-advanced#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^15.0.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
